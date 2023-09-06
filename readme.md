@@ -1,3 +1,7 @@
+# slack
+    * https://shorturl.at/stHJW
+
+    *https://join
 # php
     * HTML
      - hyper text markup language
