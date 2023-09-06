@@ -1,4 +1,4 @@
-<meta charset='utf-8'/>
+<meta charset='utf-8'/> 
 <h1>데이터 받기</h1>
 <?php
 print('<h1>POST 전송</h1>');

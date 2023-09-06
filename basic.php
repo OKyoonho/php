@@ -81,7 +81,6 @@
             
             <br>
             <input type="submit" value="전송하기">
-
         </form>
     </body>
 </html>
