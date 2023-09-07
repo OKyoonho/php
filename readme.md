@@ -89,3 +89,7 @@ NULL , '홍길동', 'hong', '1234', 'hong@aa.com', '0'
 ```sql
     DELETE FROM `myshop`.`users` WHERE `users`.`id` =3 LIMIT 1 ;
 ```
+*데이터베이스 삭제
+```sql
+    DROP DATABASE 'myshop';
+```
