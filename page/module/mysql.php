@@ -11,14 +11,20 @@ function getConn(){
 
 
 
-function getData($qry='select * from users'){
+function getData($qry='select * from users', $type=1){
             $conn = getConn();
             $res=mysqli_query($conn,$qry);
-            //print_r($res);
+            $resArr=array();
+            if($type==1){// select 라면 
+                while($data=mysqli_fetch_assoc($res)){
+                    array_push($resArr,$data);
+                }//연관배열 
+            }else{
+                $resArr=$res;
+            }
             //$fall=mysqli_fetch_array($res);// 다나옴
             //$fall=mysqli_fetch_row($res);// 순서대로
-            $data=mysqli_fetch_assoc($res);// 연관배열로
-            return $data;
+            return $resArr;
 
         }
 ?>
