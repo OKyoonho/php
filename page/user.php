@@ -1,6 +1,8 @@
 <?php
     $do=$_GET['do'];
     $id=$_GET['id'];
+    print($do);
+    print("'$id'");
     $udata=array(
         array('id','번호','hidden'),
         array('name','이름','txt'),

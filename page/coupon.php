@@ -56,7 +56,7 @@
                 break;
         }
         $btn='<a href="/page/user.php?do=add" class="btn btn-primary">추가하기</a>';
-        $title=array('Users','사용자 리스트'.$btn);
+        $title=array('Coupon','쿠폰 리스트'.$btn);
         include('./module/header.php');
 
         // update를 이용한 삭제일 경우
